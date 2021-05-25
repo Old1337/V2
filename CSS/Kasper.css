@@ -226,7 +226,7 @@ header nav .form {
     margin-left: 20px;
     position: relative;
     border-left:  1px solid white;
-    height: 40px;
+    height: 40px;   
 }
 header nav .form i
 
@@ -474,6 +474,7 @@ header nav .form i
 display: flex;
 flex-wrap: wrap;
 margin-top: 60px;
+
 }
 .Portfolio .imgs-container .box {
     flex-basis: 25%;
@@ -486,8 +487,10 @@ margin-top: 60px;
 @media (max-width:767px) {
     .Portfolio .imgs-container .box {
         flex-basis: 50%;
+       
     }
-}
+    }
+
 .Portfolio .imgs-container .box .caption {
     position: absolute;
     background-color: white;
